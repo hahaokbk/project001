@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "12 oct 2014"
+Date "18 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -299,12 +299,12 @@ VIN
 $Comp
 L JUMPER JP?
 U 1 1 5439CFCC
-P 2850 5550
-F 0 "JP?" H 2850 5700 60  0000 C CNN
-F 1 "JUMPER" H 2850 5470 40  0000 C CNN
-F 2 "~" H 2850 5550 60  0000 C CNN
-F 3 "~" H 2850 5550 60  0000 C CNN
-	1    2850 5550
+P 3700 5550
+F 0 "JP?" H 3700 5700 60  0000 C CNN
+F 1 "JUMPER" H 3700 5470 40  0000 C CNN
+F 2 "~" H 3700 5550 60  0000 C CNN
+F 3 "~" H 3700 5550 60  0000 C CNN
+	1    3700 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -338,23 +338,23 @@ CHG_EXT
 $Comp
 L GND #PWR?
 U 1 1 5439D2F7
-P 2850 6250
-F 0 "#PWR?" H 2850 6250 30  0001 C CNN
-F 1 "GND" H 2850 6180 30  0001 C CNN
-F 2 "" H 2850 6250 60  0000 C CNN
-F 3 "" H 2850 6250 60  0000 C CNN
-	1    2850 6250
+P 3700 6250
+F 0 "#PWR?" H 3700 6250 30  0001 C CNN
+F 1 "GND" H 3700 6180 30  0001 C CNN
+F 2 "" H 3700 6250 60  0000 C CNN
+F 3 "" H 3700 6250 60  0000 C CNN
+	1    3700 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L +BATT #PWR?
 U 1 1 5439D33F
-P 2850 5150
-F 0 "#PWR?" H 2850 5100 20  0001 C CNN
-F 1 "+BATT" H 2850 5250 30  0000 C CNN
-F 2 "" H 2850 5150 60  0000 C CNN
-F 3 "" H 2850 5150 60  0000 C CNN
-	1    2850 5150
+P 3700 5150
+F 0 "#PWR?" H 3700 5100 20  0001 C CNN
+F 1 "+BATT" H 3700 5250 30  0000 C CNN
+F 2 "" H 3700 5150 60  0000 C CNN
+F 3 "" H 3700 5150 60  0000 C CNN
+	1    3700 5150
 	1    0    0    -1  
 $EndComp
 Text GLabel 4000 1400 1    60   Output ~ 0
@@ -372,6 +372,10 @@ F 3 "~" H 1800 3500 30  0000 C CNN
 $EndComp
 Text GLabel 1350 3500 0    60   Output ~ 0
 AIO_1
+Text Notes 1650 2200 0    60   ~ 0
+I wonder if you need\nthis on all of the sheets ...
+Text Notes 3700 4850 0    60   ~ 0
+Is this any different from \nusing the VBAT global pin?
 Wire Wire Line
 	4500 2000 5150 2000
 Wire Wire Line
@@ -422,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3950 2250 4200
 Wire Wire Line
-	4100 1700 3850 1700
+	3850 1700 4100 1700
 Wire Wire Line
 	3850 1700 3850 1600
 Wire Wire Line
@@ -443,14 +447,12 @@ Wire Wire Line
 Wire Wire Line
 	2250 3400 2250 3550
 Wire Wire Line
-	2550 5450 2850 5450
+	3400 5450 3700 5450
 Wire Wire Line
 	2550 4600 2550 5450
 Wire Wire Line
 	2550 4800 2250 4800
 Connection ~ 2250 4800
-Wire Wire Line
-	2550 5650 2850 5650
 Wire Wire Line
 	2550 5650 2550 6250
 Connection ~ 2550 4800
@@ -463,18 +465,29 @@ Wire Wire Line
 	2050 3500 2850 3500
 Connection ~ 2250 3500
 Wire Wire Line
-	2850 5850 2850 6250
+	3700 5850 3700 6250
 Wire Wire Line
-	2850 5150 2850 5250
+	3700 5150 3700 5250
 Wire Wire Line
 	4000 1400 4000 1700
 Connection ~ 4000 1700
 Wire Wire Line
 	1550 3500 1350 3500
-Text Notes 3100 5550 0    60   ~ 0
-It would be useful to have some kind \nof slider switch here for connecting/disconnecting \nbattery to/from all electronics. 
-Text Notes 1650 2200 0    60   ~ 0
-I wonder if you need\nthis on all of the sheets ...
-Text Notes 2850 4850 0    60   ~ 0
-Is this any different from \nusing the VBAT global pin?
+$Comp
+L SW_DIP_1 SW?
+U 1 1 5442B59A
+P 2975 5450
+F 0 "SW?" H 2975 5575 60  0000 C CNN
+F 1 "SW_DIP_1" H 2975 5325 60  0000 C CNN
+F 2 "" H 2975 5450 60  0000 C CNN
+F 3 "" H 2975 5450 60  0000 C CNN
+	1    2975 5450
+	1    0    0    -1  
+$EndComp
+Text Notes 1750 3100 0    60   ~ 0
+Battery charging circuit
+Text Notes 4800 1350 0    60   ~ 0
+Power regulation circuit
+Wire Wire Line
+	2550 5650 3700 5650
 $EndSCHEMATC

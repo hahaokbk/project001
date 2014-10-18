@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title ""
-Date "12 oct 2014"
+Date "18 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -540,4 +540,6 @@ Connection ~ 4150 2200
 Connection ~ 4100 3850
 Text GLabel 4100 3600 1    60   Output ~ 0
 3V3_USB
+Text Notes 2750 3350 0    60   ~ 0
+Mini USB is available\nbut it looks weird\nin schematic.
 $EndSCHEMATC

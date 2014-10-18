@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "12 oct 2014"
+Date "18 oct 2014"
 Rev "0"
 Comp ""
 Comment1 ""
@@ -375,7 +375,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 4300 7950 4300
 Text Notes 7100 4550 0    60   ~ 0
-Currently at 5 LEDs and 2 pushbuttons. Not sure if all will fit on PCB.
+Currently at 5 LEDs, 2 pushbuttons, and a DIP switch. \nNot sure if all will fit on PCB.
 Text Notes 5750 5650 0    60   ~ 0
 There is a mini push button but \nit looks weird in schematic.
 $EndSCHEMATC

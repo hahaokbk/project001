@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "12 oct 2014"
+Date "18 oct 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -472,7 +472,7 @@ Connection ~ 4000 1700
 Wire Wire Line
 	1550 3500 1350 3500
 Text Notes 3100 5550 0    60   ~ 0
-It would be useful to have some kind \nof slider switch here for connecting/disconnecting \nbattery to/from all electronics. 
+It would be useful to have some kind \nof slider switch here for connecting/disconnecting \nbattery to/from all electronics. Basically, I need a \npower switch here.  
 Text Notes 1650 2200 0    60   ~ 0
 I wonder if you need\nthis on all of the sheets ...
 Text Notes 2850 4850 0    60   ~ 0
