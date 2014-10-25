@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:ti_tpa6138a2
 LIBS:BC127
 LIBS:mic5219
+LIBS:ab2_usb
 LIBS:CWIEM_PCB_v01-cache
 EELAYER 27 0
 EELAYER END
@@ -211,12 +212,12 @@ VIN
 $Comp
 L JUMPER JP1
 U 1 1 5439CFCC
-P 2850 5550
-F 0 "JP1" H 2850 5700 60  0000 C CNN
-F 1 "JUMPER" H 2850 5470 40  0000 C CNN
-F 2 "~" H 2850 5550 60  0000 C CNN
-F 3 "~" H 2850 5550 60  0000 C CNN
-	1    2850 5550
+P 4000 5550
+F 0 "JP1" H 4000 5700 60  0000 C CNN
+F 1 "JUMPER" H 4000 5470 40  0000 C CNN
+F 2 "~" H 4000 5550 60  0000 C CNN
+F 3 "~" H 4000 5550 60  0000 C CNN
+	1    4000 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -239,23 +240,23 @@ CHG_EXT
 $Comp
 L GND #PWR018
 U 1 1 5439D2F7
-P 2850 6250
-F 0 "#PWR018" H 2850 6250 30  0001 C CNN
-F 1 "GND" H 2850 6180 30  0001 C CNN
-F 2 "" H 2850 6250 60  0000 C CNN
-F 3 "" H 2850 6250 60  0000 C CNN
-	1    2850 6250
+P 4000 6250
+F 0 "#PWR018" H 4000 6250 30  0001 C CNN
+F 1 "GND" H 4000 6180 30  0001 C CNN
+F 2 "" H 4000 6250 60  0000 C CNN
+F 3 "" H 4000 6250 60  0000 C CNN
+	1    4000 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L +BATT #PWR019
 U 1 1 5439D33F
-P 2850 5150
-F 0 "#PWR019" H 2850 5100 20  0001 C CNN
-F 1 "+BATT" H 2850 5250 30  0000 C CNN
-F 2 "" H 2850 5150 60  0000 C CNN
-F 3 "" H 2850 5150 60  0000 C CNN
-	1    2850 5150
+P 4000 5150
+F 0 "#PWR019" H 4000 5100 20  0001 C CNN
+F 1 "+BATT" H 4000 5250 30  0000 C CNN
+F 2 "" H 4000 5150 60  0000 C CNN
+F 3 "" H 4000 5150 60  0000 C CNN
+	1    4000 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -330,14 +331,14 @@ Wire Wire Line
 Wire Wire Line
 	2250 3400 2250 3550
 Wire Wire Line
-	2550 5450 2850 5450
+	3350 5450 4000 5450
 Wire Wire Line
 	2550 4600 2550 5450
 Wire Wire Line
 	2550 4800 2250 4800
 Connection ~ 2250 4800
 Wire Wire Line
-	2550 5650 2850 5650
+	2550 5650 4000 5650
 Wire Wire Line
 	2550 5650 2550 6250
 Connection ~ 2550 4800
@@ -350,17 +351,17 @@ Wire Wire Line
 	2050 3500 2850 3500
 Connection ~ 2250 3500
 Wire Wire Line
-	2850 5850 2850 6250
+	4000 5850 4000 6250
 Wire Wire Line
-	2850 5150 2850 5250
+	4000 5150 4000 5250
 Connection ~ 4000 1700
 Wire Wire Line
 	1550 3500 1350 3500
-Text Notes 3100 5550 0    60   ~ 0
+Text Notes 4250 5550 0    60   ~ 0
 It would be useful to have some kind \nof slider switch here for connecting/disconnecting \nbattery to/from all electronics. 
 Text Notes 1300 2200 0    60   ~ 0
 I wonder if you need\nthis on all of the sheets ... No.
-Text Notes 2850 4850 0    60   ~ 0
+Text Notes 4000 4850 0    60   ~ 0
 Is this any different from \nusing the VBAT global pin?
 Wire Wire Line
 	1850 1600 1850 1850
@@ -422,4 +423,20 @@ Wire Wire Line
 	3550 1600 3550 2300
 Wire Wire Line
 	3550 2300 4100 2300
+Wire Wire Line
+	2550 5450 2950 5450
+$Comp
+L DIPS_01 SW3
+U 1 1 544BE30E
+P 3150 5450
+F 0 "SW3" V 3050 5450 60  0000 C CNN
+F 1 "DIPS_01" V 3250 5450 60  0000 C CNN
+F 2 "" H 3150 5450 60  0000 C CNN
+F 3 "" H 3150 5450 60  0000 C CNN
+	1    3150 5450
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3350 5450
+Text Notes 2600 5050 0    60   ~ 0
+Hmm, wondering if \nputting a no-connect\nis the right solution here ...
 $EndSCHEMATC

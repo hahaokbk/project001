@@ -1,11 +1,6 @@
-update=10/11/2014 6:33:49 PM
+update=10/25/2014 1:55:16 PM
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,29 +21,30 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
 LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
+LibName5=dips-s
+LibName6=divers
+LibName7=smd_capacitors
+LibName8=smd_resistors
+LibName9=smd_crystal&oscillator
+LibName10=smd_dil
+LibName11=smd_transistors
+LibName12=libcms
+LibName13=display
+LibName14=led
+LibName15=dip_sockets
+LibName16=pga_sockets
+LibName17=valves
+LibDir=
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/lifesatrip/Documents/[DIY] True Wireless Stereo IEMs/CWIEM_PCB/component_lib
-NetFmtName=
+LibDir=C:/Users/lifesatrip/Documents/[DIY] True Wireless Stereo IEMs/CWIEM_PCB/component_lib;C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -87,3 +83,9 @@ LibName30=valves
 LibName31=ti_tpa6138a2
 LibName32=BC127
 LibName33=mic5219
+LibName34=C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library/ab2_usb
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
