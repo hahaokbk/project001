@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3  06/12/2014-11:57:00
+#encoding utf-8
+#
+# Dev Name: JST-PH2
+# Package Name: JST-PH2
+# Dev Tech: ''
+# Dev Prefix: P
+# Gate count = 1
+#
+DEF JST-PH2 P 0 40 Y Y 1 L N
+# Gate Name: G$1
+# Symbol Name: CON02
+F0 "P" -100 130 50 H V L B
+F1 "JST-PH2" -100 -290 50 H V L B
+F2 "jst-ph-JST-PH2" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -100 100 -100 -200
+P 2 1 0 0 -100 -200 200 -200
+P 2 1 0 0 200 -200 200 100
+P 2 1 0 0 200 100 -100 100
+X 1 1 300 0 100 L 40 40 1 1 P 
+X 2 2 300 -100 100 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF

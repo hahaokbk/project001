@@ -1,11 +1,16 @@
-update=12/6/2014 11:30:05 PM
+update=12/7/2014 12:14:42 AM
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
-LibDir=C:/Users/lifesatrip/Documents/[DIY] True Wireless Stereo IEMs/CWIEM_PCB/component_lib;C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library
+LibDir=C:/Users/lifesatrip/Documents/[DIY] True Wireless Stereo IEMs/CWIEM_PCB/component_lib;C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library;C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
@@ -46,17 +51,13 @@ LibName31=ti_tpa6138a2
 LibName32=BC127
 LibName33=mic5219
 LibName34=C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library/ab2_usb
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName35=jst-ph
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
 PadSizeH=1.000000000000
 PadSizeV=0.600000000000
 PcbTextSizeV=1.500000000000
@@ -90,3 +91,4 @@ LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
 LibName18=BC127
+LibName19=w_conn_jst-ph

@@ -33,6 +33,7 @@ LIBS:ti_tpa6138a2
 LIBS:BC127
 LIBS:mic5219
 LIBS:ab2_usb
+LIBS:jst-ph
 LIBS:CWIEM_PCB_v01-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "25 oct 2014"
+Date "7 dec 2014"
 Rev "0"
 Comp ""
 Comment1 ""
