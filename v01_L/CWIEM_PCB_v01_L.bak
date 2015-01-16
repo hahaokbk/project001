@@ -33,6 +33,7 @@ LIBS:ti_tpa6138a2
 LIBS:BC127
 LIBS:mic5219
 LIBS:ab2_usb
+LIBS:jst-ph
 LIBS:CWIEM_PCB_v01_L-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "25 oct 2014"
+Date "16 jan 2015"
 Rev "0"
 Comp ""
 Comment1 ""
@@ -69,10 +70,6 @@ Text GLabel 4000 3600 0    40   Output ~ 0
 SPKR_LN
 Text GLabel 4000 3700 0    40   Output ~ 0
 SPKR_LP
-Text GLabel 4000 3800 0    40   Output ~ 0
-SPKR_RN
-Text GLabel 4000 3900 0    40   Output ~ 0
-SPKR_RP
 $Sheet
 S 11900 1700 1650 1400
 U 541E1030
@@ -166,10 +163,6 @@ Wire Wire Line
 	4000 3600 4100 3600
 Wire Wire Line
 	4100 3700 4000 3700
-Wire Wire Line
-	4000 3800 4100 3800
-Wire Wire Line
-	4100 3900 4000 3900
 Wire Wire Line
 	7050 3700 6900 3700
 Wire Wire Line
@@ -376,4 +369,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 3400 4100 3400
 Connection ~ 3850 2700
+NoConn ~ 4100 3800
+NoConn ~ 4100 3900
 $EndSCHEMATC
