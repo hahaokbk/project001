@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "7 dec 2014"
+Date "16 jan 2015"
 Rev "0"
 Comp ""
 Comment1 ""
@@ -66,10 +66,6 @@ U 541DFCDC
 F0 "Headphone Amplifier & Audio Crossover" 50
 F1 "audio_circuit.sch" 50
 $EndSheet
-Text GLabel 4000 3600 0    40   Output ~ 0
-SPKR_LN
-Text GLabel 4000 3700 0    40   Output ~ 0
-SPKR_LP
 Text GLabel 4000 3800 0    40   Output ~ 0
 SPKR_RN
 Text GLabel 4000 3900 0    40   Output ~ 0
@@ -377,4 +373,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 3400 4100 3400
 Connection ~ 3850 2700
+NoConn ~ 4000 3600
+NoConn ~ 4000 3700
 $EndSCHEMATC

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "7 dec 2014"
+Date "16 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -400,9 +400,8 @@ F 3 "" H 3150 5450 60  0000 C CNN
 	1    3150 5450
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3350 5450
 Text Notes 2600 5050 0    60   ~ 0
-Hmm, wondering if \nputting a no-connect\nis the right solution here ...
+Hmm, wondering if \nputting a no-connect\nis the right solution here ... ERC says no.
 $Comp
 L JST-PH2 P13
 U 1 1 5483E1A6

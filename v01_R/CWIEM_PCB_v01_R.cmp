@@ -1,58 +1,9 @@
-Cmp-Mod v01_R Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/6/2014 11:36:50 PM
-
-BeginCmp
-TimeStamp = /541DFCDC/541E00F9;
-Reference = C1;
-ValeurCmp = 3.3uF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E0146;
-Reference = C2;
-ValeurCmp = 1.5uF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E04DF;
-Reference = C3;
-ValeurCmp = 0.1uF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E01E6;
-Reference = C4;
-ValeurCmp = 47pF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E0260;
-Reference = C5;
-ValeurCmp = 180pF;
-IdModule  = SM0402_c;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/15/2015 10:53:44 PM
 
 BeginCmp
 TimeStamp = /541DFCDC/541DFF08;
 Reference = C6;
 ValeurCmp = 1.0uF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E04E5;
-Reference = C7;
-ValeurCmp = 0.1uF;
-IdModule  = SM0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E0542;
-Reference = C8;
-ValeurCmp = 47pF;
 IdModule  = SM0402_c;
 EndCmp
 
@@ -218,55 +169,6 @@ IdModule  = USB_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /5439AC23/5439CFCC;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = DIPS-DS01;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E0126;
-Reference = P1;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E010F;
-Reference = P2;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E00E4;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E00BA;
-Reference = P4;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E013E;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E0016;
-Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
 TimeStamp = /541DFCDC/541E07C4;
 Reference = P7;
 ValeurCmp = CONN_1;
@@ -306,6 +208,13 @@ TimeStamp = /541DFCDC/541E079F;
 Reference = P12;
 ValeurCmp = CONN_1;
 IdModule  = 1PIN_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5439AC23/5483E1A6;
+Reference = P13;
+ValeurCmp = JST-PH2;
+IdModule  = jst-ph-JST-PH2;
 EndCmp
 
 BeginCmp
@@ -354,55 +263,6 @@ BeginCmp
 TimeStamp = /5439FB1F;
 Reference = R4;
 ValeurCmp = 240;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E015C;
-Reference = R5;
-ValeurCmp = 20;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E01BA;
-Reference = R6;
-ValeurCmp = 30.1k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E0485;
-Reference = R7;
-ValeurCmp = 15k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E021F;
-Reference = R8;
-ValeurCmp = 43k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E048B;
-Reference = R9;
-ValeurCmp = 15k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E02B8;
-Reference = R10;
-ValeurCmp = 43k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E053C;
-Reference = R11;
-ValeurCmp = 30.1k;
 IdModule  = SM0402_r;
 EndCmp
 
