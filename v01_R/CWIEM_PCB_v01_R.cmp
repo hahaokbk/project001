@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/15/2015 10:53:44 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/17/2015 12:35:24 AM
 
 BeginCmp
 TimeStamp = /541DFCDC/541DFF08;
@@ -113,13 +113,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /543A0079;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /543A005B;
 Reference = D2;
 ValeurCmp = LED;
@@ -165,7 +158,7 @@ BeginCmp
 TimeStamp = /541E1030/541E1107;
 Reference = J1;
 ValeurCmp = USB;
-IdModule  = USB_B;
+IdModule  = USB_MINI_B;
 EndCmp
 
 BeginCmp
@@ -214,7 +207,7 @@ BeginCmp
 TimeStamp = /5439AC23/5483E1A6;
 Reference = P13;
 ValeurCmp = JST-PH2;
-IdModule  = jst-ph-JST-PH2;
+IdModule  = b2b-ph-kl;
 EndCmp
 
 BeginCmp
@@ -236,20 +229,6 @@ TimeStamp = /5439AC23/5439B513;
 Reference = Q3;
 ValeurCmp = PNP;
 IdModule  = SOT23;
-EndCmp
-
-BeginCmp
-TimeStamp = /5439DCCE;
-Reference = R1;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /5439FB11;
-Reference = R2;
-ValeurCmp = 240;
-IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
@@ -390,20 +369,6 @@ TimeStamp = /5439AC23/5439B539;
 Reference = R29;
 ValeurCmp = 0.22;
 IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5439FFA3;
-Reference = SW1;
-ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH_SMALL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5439FEDB;
-Reference = SW2;
-ValeurCmp = SW_PUSH;
-IdModule  = SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp

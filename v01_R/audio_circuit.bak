@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "16 jan 2015"
+Date "17 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -83,10 +83,10 @@ F 3 "~" H 4800 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR04
 U 1 1 541DFF4B
 P 4800 6150
-F 0 "#PWR05" H 4800 6150 30  0001 C CNN
+F 0 "#PWR04" H 4800 6150 30  0001 C CNN
 F 1 "GND" H 4800 6080 30  0001 C CNN
 F 2 "" H 4800 6150 60  0000 C CNN
 F 3 "" H 4800 6150 60  0000 C CNN
@@ -94,12 +94,11 @@ F 3 "" H 4800 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5150 5150
-NoConn ~ 5150 5300
 $Comp
-L GND #PWR06
+L GND #PWR05
 U 1 1 541E060D
 P 5800 4100
-F 0 "#PWR06" H 5800 4100 30  0001 C CNN
+F 0 "#PWR05" H 5800 4100 30  0001 C CNN
 F 1 "GND" H 5800 4030 30  0001 C CNN
 F 2 "" H 5800 4100 60  0000 C CNN
 F 3 "" H 5800 4100 60  0000 C CNN
@@ -327,10 +326,10 @@ F 3 "~" H 7100 4700 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND #PWR06
 U 1 1 541E08B0
 P 6850 6150
-F 0 "#PWR07" H 6850 6150 30  0001 C CNN
+F 0 "#PWR06" H 6850 6150 30  0001 C CNN
 F 1 "GND" H 6850 6080 30  0001 C CNN
 F 2 "" H 6850 6150 60  0000 C CNN
 F 3 "" H 6850 6150 60  0000 C CNN
@@ -348,7 +347,6 @@ F 3 "~" H 6700 5750 60  0000 C CNN
 	1    6700 5750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6500 5300
 Text Notes 7450 4800 0    60   ~ 0
 Right audio crossover circuit
 Text Notes 8300 5050 0    60   ~ 0
@@ -474,4 +472,11 @@ Wire Wire Line
 NoConn ~ 5150 4700
 NoConn ~ 5150 4850
 NoConn ~ 5150 5000
+Wire Wire Line
+	5150 5300 5000 5300
+Wire Wire Line
+	5000 5300 5000 6050
+Wire Wire Line
+	5000 6050 4800 6050
+NoConn ~ 6500 5300
 $EndSCHEMATC

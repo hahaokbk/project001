@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "16 jan 2015"
+Date "17 jan 2015"
 Rev "0"
 Comp ""
 Comment1 ""
@@ -138,18 +138,7 @@ NoConn ~ 6900 3100
 NoConn ~ 6900 3200
 NoConn ~ 6900 3300
 NoConn ~ 6900 3400
-$Comp
-L R R1
-U 1 1 5439DCCE
-P 7100 3200
-F 0 "R1" V 7180 3200 40  0000 C CNN
-F 1 "10k" V 7107 3201 40  0000 C CNN
-F 2 "~" V 7030 3200 30  0000 C CNN
-F 3 "~" H 7100 3200 30  0000 C CNN
-	1    7100 3200
-	1    0    0    -1  
-$EndComp
-Text GLabel 7250 2950 2    40   Input ~ 0
+Text GLabel 7150 3500 2    40   Input ~ 0
 3.3V
 NoConn ~ 4100 2900
 NoConn ~ 5100 4900
@@ -190,27 +179,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 4900 6000 5000
 Wire Wire Line
-	7100 3450 7100 3500
-Connection ~ 7100 3500
-Wire Wire Line
-	7250 2950 7100 2950
+	6900 3500 7150 3500
 Text GLabel 4000 3500 0    40   Input ~ 0
 AIO_1
 Wire Wire Line
 	4000 3500 4100 3500
 Text GLabel 8800 4150 2    40   Input ~ 0
 3.3V
-$Comp
-L R R2
-U 1 1 5439FB11
-P 8300 4000
-F 0 "R2" V 8380 4000 40  0000 C CNN
-F 1 "240" V 8307 4001 40  0000 C CNN
-F 2 "~" V 8230 4000 30  0000 C CNN
-F 3 "~" H 8300 4000 30  0000 C CNN
-	1    8300 4000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R3
 U 1 1 5439FB19
@@ -234,8 +209,6 @@ F 3 "~" H 8300 4300 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6900 4000 7550 4000
-Wire Wire Line
 	7200 4150 7550 4150
 Wire Wire Line
 	7200 4150 7200 4100
@@ -250,57 +223,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 4150 8800 4150
 Wire Wire Line
-	8550 4000 8650 4000
-Wire Wire Line
-	8650 4000 8650 4300
+	8650 4150 8650 4300
 Connection ~ 8650 4150
 Wire Wire Line
 	8650 4300 8550 4300
-Wire Wire Line
-	6900 3500 7500 3500
-$Comp
-L SW_PUSH SW2
-U 1 1 5439FEDB
-P 7800 3500
-F 0 "SW2" H 7950 3610 50  0000 C CNN
-F 1 "SW_PUSH" H 7800 3420 50  0000 C CNN
-F 2 "~" H 7800 3500 60  0000 C CNN
-F 3 "~" H 7800 3500 60  0000 C CNN
-	1    7800 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 5439FF2A
-P 8200 3600
-F 0 "#PWR03" H 8200 3600 30  0001 C CNN
-F 1 "GND" H 8200 3530 30  0001 C CNN
-F 2 "" H 8200 3600 60  0000 C CNN
-F 3 "" H 8200 3600 60  0000 C CNN
-	1    8200 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 3600 8200 3500
-Wire Wire Line
-	8200 3500 8100 3500
-$Comp
-L SW_PUSH SW1
-U 1 1 5439FFA3
-P 5500 5650
-F 0 "SW1" H 5650 5760 50  0000 C CNN
-F 1 "SW_PUSH" H 5500 5570 50  0000 C CNN
-F 2 "~" H 5500 5650 60  0000 C CNN
-F 3 "~" H 5500 5650 60  0000 C CNN
-	1    5500 5650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5500 5350 5500 4900
-Text GLabel 5500 6100 3    40   Input ~ 0
-3.3V
-Wire Wire Line
-	5500 5950 5500 6100
 $Comp
 L LED D2
 U 1 1 543A005B
@@ -310,17 +236,6 @@ F 1 "LED" H 8000 4100 50  0000 C CNN
 F 2 "~" H 7750 4150 60  0000 C CNN
 F 3 "~" H 7750 4150 60  0000 C CNN
 	1    7750 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L LED D1
-U 1 1 543A0079
-P 7750 4000
-F 0 "D1" H 7750 3900 50  0000 C CNN
-F 1 "LED" H 8000 3950 50  0000 C CNN
-F 2 "~" H 7750 4000 60  0000 C CNN
-F 3 "~" H 7750 4000 60  0000 C CNN
-	1    7750 4000
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -335,20 +250,16 @@ F 3 "~" H 7750 4300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8050 4000 7950 4000
-Wire Wire Line
 	8050 4150 7950 4150
 Wire Wire Line
 	8050 4300 7950 4300
 Text Notes 7100 4550 0    60   ~ 0
-Currently at 5 LEDs, 2 pushbuttons, and a DIP switch. \nNot sure if all will fit on PCB.
-Text Notes 5750 5650 0    60   ~ 0
-There is a mini push button but \nit looks weird in schematic.
+Currently at 4 LEDs (only LED 1 for final design) and a DIP switch. \n
 $Comp
-L GND #PWR04
+L GND #PWR03
 U 1 1 544AFEB2
 P 3700 2600
-F 0 "#PWR04" H 3700 2600 30  0001 C CNN
+F 0 "#PWR03" H 3700 2600 30  0001 C CNN
 F 1 "GND" H 3700 2530 30  0001 C CNN
 F 2 "" H 3700 2600 60  0000 C CNN
 F 3 "" H 3700 2600 60  0000 C CNN
@@ -356,7 +267,7 @@ F 3 "" H 3700 2600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4100 2600 3700 2600
+	3700 2600 4100 2600
 Text Notes 6450 5100 0    60   ~ 0
 I had to make CHG_EXT an output pin \n(base of PNP transistor is an input pin).
 NoConn ~ 6100 4900
@@ -375,4 +286,8 @@ Wire Wire Line
 Connection ~ 3850 2700
 NoConn ~ 4000 3600
 NoConn ~ 4000 3700
+NoConn ~ 5500 4900
+NoConn ~ 6900 4000
+Text Notes 7550 4000 0    60   ~ 0
+LED 2 is reserved for Bluetooth Smart use; not useful.
 $EndSCHEMATC

@@ -1,13 +1,8 @@
-update=12/7/2014 12:14:42 AM
+update=1/17/2015 12:19:24 AM
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=C:/Users/lifesatrip/Documents/[DIY] True Wireless Stereo IEMs/CWIEM_PCB/component_lib;C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library;C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
@@ -72,7 +67,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -92,3 +86,10 @@ LibName16=pga_sockets
 LibName17=valves
 LibName18=BC127
 LibName19=w_conn_jst-ph
+LibName20=jst-ph
+LibDir=C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
