@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/17/2015 12:35:24 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/19/2015 12:02:36 AM
 
 BeginCmp
 TimeStamp = /541DFCDC/541DFF08;
@@ -127,20 +127,6 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /541E1030/541E175F;
-Reference = D4;
-ValeurCmp = LED;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E1783;
-Reference = D5;
-ValeurCmp = LED;
-IdModule  = LED-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5439AC23/5439B0DD;
 Reference = D6;
 ValeurCmp = BA340A;
@@ -162,73 +148,66 @@ IdModule  = USB_MINI_B;
 EndCmp
 
 BeginCmp
+TimeStamp = /5439AC23/54BB248C;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = BA Driver Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /5439AC23/54BB2499;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = BA Driver Pad;
+EndCmp
+
+BeginCmp
 TimeStamp = /541DFCDC/541E07C4;
 Reference = P7;
 ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
+IdModule  = BA Driver Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E0799;
 Reference = P8;
 ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
+IdModule  = BA Driver Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E07BD;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
+IdModule  = BA Driver Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E07B6;
 Reference = P10;
 ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
+IdModule  = BA Driver Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E07A8;
 Reference = P11;
 ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
+IdModule  = BA Driver Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E079F;
 Reference = P12;
 ValeurCmp = CONN_1;
-IdModule  = 1PIN_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /5439AC23/5483E1A6;
-Reference = P13;
-ValeurCmp = JST-PH2;
-IdModule  = b2b-ph-kl;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E2916;
-Reference = Q1;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E29D6;
-Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = SOT23;
+IdModule  = BA Driver Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5439AC23/5439B513;
 Reference = Q3;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
@@ -295,62 +274,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /541E1030/541E18F8;
-Reference = R19;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E18F2;
-Reference = R20;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E17B0;
-Reference = R21;
-ValeurCmp = 1k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E17E2;
-Reference = R22;
-ValeurCmp = 1k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E296A;
-Reference = R23;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E29CE;
-Reference = R24;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E2A6F;
-Reference = R25;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E29DD;
-Reference = R26;
-ValeurCmp = 10k;
-IdModule  = SM0402_r;
-EndCmp
-
-BeginCmp
 TimeStamp = /5439AC23/5439FA35;
 Reference = R27;
 ValeurCmp = 10k;
@@ -372,10 +295,10 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5439AC23/544BE30E;
-Reference = SW3;
-ValeurCmp = DIPS_01;
-IdModule  = DIPS-DS01;
+TimeStamp = /5439AC23/54BBDE2C;
+Reference = SW1;
+ValeurCmp = SW_PUSH_SMALL;
+IdModule  = SW_PUSH_SMD;
 EndCmp
 
 BeginCmp
@@ -390,13 +313,6 @@ TimeStamp = /541DFCDC/541DFDAD;
 Reference = U2;
 ValeurCmp = TI_TPA6138A2;
 IdModule  = tssop-14;
-EndCmp
-
-BeginCmp
-TimeStamp = /541E1030/541E146C;
-Reference = U3;
-ValeurCmp = FT232RL;
-IdModule  = SSOP28;
 EndCmp
 
 BeginCmp

@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "17 jan 2015"
+Date "18 jan 2015"
 Rev "0"
 Comp ""
 Comment1 ""
@@ -76,14 +76,6 @@ U 541E1030
 F0 "USB-to-RS232 circuit" 50
 F1 "comm_circuit.sch" 50
 $EndSheet
-Text GLabel 7050 3700 2    40   Input ~ 0
-UART_RXD
-Text GLabel 7050 3900 2    40   Input ~ 0
-UART_CTS
-Text GLabel 7050 3800 2    40   Output ~ 0
-UART_TXD
-Text GLabel 7050 3600 2    40   Output ~ 0
-UART_RTS
 $Sheet
 S 11900 3400 1650 1400
 U 5439AC23
@@ -123,8 +115,6 @@ F 3 "" H 5400 5000 60  0000 C CNN
 	1    5400 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5700 5000 3    40   Input ~ 0
-UART_CTS
 Text GLabel 5800 5000 3    40   Input ~ 0
 VBAT_SENSE
 Text GLabel 5600 5000 3    40   Output ~ 0
@@ -157,19 +147,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 3900 4000 3900
 Wire Wire Line
-	7050 3700 6900 3700
-Wire Wire Line
-	7050 3600 6900 3600
-Wire Wire Line
-	7050 3800 6900 3800
-Wire Wire Line
-	7050 3900 6900 3900
-Wire Wire Line
 	5400 4900 5400 5000
 Wire Wire Line
 	4900 4900 4900 5000
-Wire Wire Line
-	5700 5000 5700 4900
 Wire Wire Line
 	5800 5000 5800 4900
 Wire Wire Line
@@ -254,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 4300 7950 4300
 Text Notes 7100 4550 0    60   ~ 0
-Currently at 4 LEDs (only LED 1 for final design) and a DIP switch. \n
+Currently at 2 LEDs (only LED 1 for final CIEM PCB) and a DIP switch. \n
 $Comp
 L GND #PWR03
 U 1 1 544AFEB2
@@ -290,4 +270,9 @@ NoConn ~ 5500 4900
 NoConn ~ 6900 4000
 Text Notes 7550 4000 0    60   ~ 0
 LED 2 is reserved for Bluetooth Smart use; not useful.
+NoConn ~ 6900 3600
+NoConn ~ 6900 3700
+NoConn ~ 6900 3800
+NoConn ~ 6900 3900
+NoConn ~ 5700 4900
 $EndSCHEMATC

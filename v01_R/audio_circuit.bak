@@ -41,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "17 jan 2015"
+Date "18 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -422,11 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 6050 7300 5950
 Connection ~ 7300 6050
-Wire Wire Line
-	7950 5750 7950 6050
 Connection ~ 7950 5850
-Wire Wire Line
-	7950 5000 7950 5350
 Connection ~ 7950 5200
 Wire Wire Line
 	7850 5000 7950 5000
@@ -479,4 +475,8 @@ Wire Wire Line
 Wire Wire Line
 	5000 6050 4800 6050
 NoConn ~ 6500 5300
+Wire Wire Line
+	7950 5200 7950 5350
+Wire Wire Line
+	7950 5750 7950 5850
 $EndSCHEMATC

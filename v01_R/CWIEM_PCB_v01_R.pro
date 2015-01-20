@@ -1,4 +1,4 @@
-update=1/17/2015 12:19:24 AM
+update=1/18/2015 11:59:38 PM
 version=1
 last_client=cvpcb
 [general]
@@ -87,6 +87,8 @@ LibName17=valves
 LibName18=BC127
 LibName19=w_conn_jst-ph
 LibName20=jst-ph
+LibName21=BA_Pad
+LibName22=open_project
 LibDir=C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
 [cvpcb]
 version=1
