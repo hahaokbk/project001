@@ -34,6 +34,9 @@ LIBS:BC127
 LIBS:mic5219
 LIBS:ab2_usb
 LIBS:jst-ph
+LIBS:shardy
+LIBS:tps63031
+LIBS:tps73601dbvr
 LIBS:CWIEM_PCB_v01_R-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "18 jan 2015"
+Date "25 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -227,17 +230,6 @@ F 3 "" H 8100 6050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_1 P11
-U 1 1 541E07A8
-P 8100 5850
-F 0 "P11" H 8180 5850 40  0000 L CNN
-F 1 "CONN_1" H 8100 5905 30  0001 C CNN
-F 2 "" H 8100 5850 60  0000 C CNN
-F 3 "" H 8100 5850 60  0000 C CNN
-	1    8100 5850
-	1    0    0    1   
-$EndComp
-$Comp
 L C C17
 U 1 1 541E07AF
 P 7950 5550
@@ -247,17 +239,6 @@ F 2 "~" H 7988 5400 30  0000 C CNN
 F 3 "~" H 7950 5550 60  0000 C CNN
 	1    7950 5550
 	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P10
-U 1 1 541E07B6
-P 8100 5200
-F 0 "P10" H 8180 5200 40  0000 L CNN
-F 1 "CONN_1" H 8100 5255 30  0001 C CNN
-F 2 "" H 8100 5200 60  0000 C CNN
-F 3 "" H 8100 5200 60  0000 C CNN
-	1    8100 5200
-	1    0    0    1   
 $EndComp
 $Comp
 L CONN_1 P9
@@ -350,13 +331,9 @@ $EndComp
 Text Notes 7450 4800 0    60   ~ 0
 Right audio crossover circuit
 Text Notes 8300 5050 0    60   ~ 0
-+LOW SPKR R1
-Text Notes 8300 5250 0    60   ~ 0
-+LOW SPKR R2
-Text Notes 8300 5900 0    60   ~ 0
--LOW SPKR R1
++LOW SPKR R
 Text Notes 8300 6100 0    60   ~ 0
--LOW SPKR R2
+-LOW SPKR R
 Text GLabel 6600 2300 1    60   Input ~ 0
 SPKR_RP
 Text GLabel 7100 2300 1    60   Input ~ 0
@@ -422,8 +399,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 6050 7300 5950
 Connection ~ 7300 6050
-Connection ~ 7950 5850
-Connection ~ 7950 5200
 Wire Wire Line
 	7850 5000 7950 5000
 Wire Wire Line
@@ -476,7 +451,7 @@ Wire Wire Line
 	5000 6050 4800 6050
 NoConn ~ 6500 5300
 Wire Wire Line
-	7950 5200 7950 5350
+	7950 5000 7950 5350
 Wire Wire Line
-	7950 5750 7950 5850
+	7950 5750 7950 6050
 $EndSCHEMATC

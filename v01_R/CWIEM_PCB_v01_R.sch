@@ -34,6 +34,9 @@ LIBS:BC127
 LIBS:mic5219
 LIBS:ab2_usb
 LIBS:jst-ph
+LIBS:shardy
+LIBS:tps63031
+LIBS:tps73601dbvr
 LIBS:CWIEM_PCB_v01_R-cache
 EELAYER 27 0
 EELAYER END
@@ -41,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "BC127 circuit"
-Date "18 jan 2015"
+Date "25 jan 2015"
 Rev "0"
 Comp ""
 Comment1 ""
