@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/24/2015 5:35:37 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/27/2015 8:53:28 PM
 
 BeginCmp
 TimeStamp = /5439AC23/54C1C196;
@@ -130,7 +130,7 @@ BeginCmp
 TimeStamp = /541E1030/541E1107;
 Reference = J1;
 ValeurCmp = USB;
-IdModule  = USB_MINI_B;
+IdModule  = conn_usb_B_micro_smd;
 EndCmp
 
 BeginCmp
@@ -151,42 +151,28 @@ BeginCmp
 TimeStamp = /541DFCDC/541E07C4;
 Reference = P7;
 ValeurCmp = CONN_1;
-IdModule  = BA Driver Pad;
+IdModule  = wbfk_pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E0799;
 Reference = P8;
 ValeurCmp = CONN_1;
-IdModule  = BA Driver Pad;
+IdModule  = wbfk_pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E07BD;
 Reference = P9;
 ValeurCmp = CONN_1;
-IdModule  = BA Driver Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E07B6;
-Reference = P10;
-ValeurCmp = CONN_1;
-IdModule  = BA Driver Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /541DFCDC/541E07A8;
-Reference = P11;
-ValeurCmp = CONN_1;
-IdModule  = BA Driver Pad;
+IdModule  = ci_pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /541DFCDC/541E079F;
 Reference = P12;
 ValeurCmp = CONN_1;
-IdModule  = BA Driver Pad;
+IdModule  = ci_pad;
 EndCmp
 
 BeginCmp

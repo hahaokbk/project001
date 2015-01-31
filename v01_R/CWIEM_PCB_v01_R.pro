@@ -1,6 +1,6 @@
-update=1/22/2015 10:24:29 PM
+update=1/27/2015 8:53:14 PM
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -46,12 +46,9 @@ LibName20=jst-ph
 LibName21=BA_Pad
 LibName22=open_project
 LibName23=qfn10
+LibName24=w_conn_pc
+LibName25=wbfk_pad
 LibDir=C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=C:/Users/lifesatrip/Documents/[DIY] True Wireless Stereo IEMs/CWIEM_PCB/component_lib;C:/Users/lifesatrip/Downloads/KiCad-master/KiCad-master/library;C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/component_lib
@@ -99,3 +96,8 @@ LibName35=jst-ph
 LibName36=shardy
 LibName37=tps63031
 LibName38=tps73601dbvr
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
