@@ -1,29 +1,29 @@
-PCBNEW-LibModule-V1  12/6/2014 11:20:24 PM
+PCBNEW-LibModule-V1  1/27/2015 4:21:32 PM
 # encoding utf-8
 Units mm
 $INDEX
 BC127
 $EndINDEX
 $MODULE BC127
-Po 0 0 0 15 5483D57C 00000000 ~~
+Po 0 0 0 15 54C80142 00000000 ~~
 Li BC127
 Sc 0
-AR 
+AR /541DFC48
 Op 0 0 0
 .SolderMask 0.05
 .LocalClearance 0.05
-T0 6.5 0.3 1 1 0 0.15 N V 21 N "BC127"
-T1 6 -2.2 1 1 0 0.15 N V 21 N "U**"
-DC 2.3 0.2 2.2 -0.5 0.15 21
-DS 1.1 15.9 10.5 15.9 0.15 21
-DS 10.5 15.9 10.5 -1 0.15 21
-DS 10.5 -1 1.1 -1 0.15 21
-DS 1.1 -1 1.1 15.9 0.15 21
+T0 -2.54 1.27 1 1 0 0.15 N V 21 N "U1"
+T1 6 -2.2 1 1 0 0.15 N I 21 N "BC127"
+DS -0.1 -0.9 -0.1 17.1 0.15 21
+DS -0.1 17.1 11.7 17.1 0.15 21
+DS 11.7 -0.9 11.7 17.1 0.15 21
+DS -0.1 -0.9 11.7 -0.9 0.15 21
+DC 1.95 0.45 1.85 -0.25 0.15 21
 $PAD
 Sh "1" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 0 0
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -32,7 +32,7 @@ $PAD
 Sh "2" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 0 0.8
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -41,7 +41,7 @@ $PAD
 Sh "3" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 0 1.6
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -50,7 +50,7 @@ $PAD
 Sh "4" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 0 2.4
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -113,7 +113,7 @@ $PAD
 Sh "11" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 0 8
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -122,7 +122,7 @@ $PAD
 Sh "12" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "AIO_1"
 Po 0 8.8
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -149,7 +149,7 @@ $PAD
 Sh "15" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "SPKR_RN"
 Po 0 11.2
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -158,7 +158,7 @@ $PAD
 Sh "16" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "SPKR_RP"
 Po 0 12
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -212,7 +212,7 @@ $PAD
 Sh "22" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 1 17
 .SolderMask 0.05
 .LocalClearance 0.05
@@ -253,21 +253,21 @@ $PAD
 Sh "27" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po 5 17
 $EndPAD
 $PAD
 Sh "28" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "VREGEN"
 Po 5.8 17
 $EndPAD
 $PAD
 Sh "29" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "CHG_EXT"
 Po 6.6 17
 $EndPAD
 $PAD
@@ -281,21 +281,21 @@ $PAD
 Sh "31" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "VBAT_SENSE"
 Po 8.2 17
 $EndPAD
 $PAD
 Sh "32" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "VBAT"
 Po 9 17
 $EndPAD
 $PAD
 Sh "33" R 1 0.6 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "3.3V"
 Po 9.8 17
 $EndPAD
 $PAD
@@ -323,14 +323,14 @@ $PAD
 Sh "37" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "N-000007"
 Po 11.6 14.4
 $EndPAD
 $PAD
 Sh "38" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "N-000006"
 Po 11.6 13.6
 $EndPAD
 $PAD
@@ -372,7 +372,7 @@ $PAD
 Sh "44" R 1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "3.3V"
 Po 11.6 8.8
 $EndPAD
 $PAD
