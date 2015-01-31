@@ -58,8 +58,8 @@
     (mod_text_width 0.15)
     (pad_size 1.37 2.15)
     (pad_drill 0)
-    (pad_to_mask_clearance 0.05)
-    (solder_mask_min_width 0.05)
+    (pad_to_mask_clearance 0.0508)
+    (solder_mask_min_width 0.0508)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/v01_R/Gerbers/))
   )
 
   (net 0 "")
@@ -538,11 +538,11 @@
     )
   )
 
-  (module SM0402_r (layer F.Cu) (tedit 5141C458) (tstamp 54BB2365)
+  (module SM0402_r (layer F.Cu) (tedit 54CD3A73) (tstamp 54BB2365)
     (at 86.36 72.644 180)
     (path /5439FB1F)
     (attr smd)
-    (fp_text reference R4 (at 0 0 180) (layer F.SilkS)
+    (fp_text reference R4 (at -1.4478 0 180) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 240 (at 0.09906 0 180) (layer F.SilkS) hide
@@ -1261,11 +1261,11 @@
     )
   )
 
-  (module SM0402_r (layer F.Cu) (tedit 5141C458) (tstamp 54C1C4AD)
+  (module SM0402_r (layer F.Cu) (tedit 54CD3A61) (tstamp 54C1C4AD)
     (at 81.28 87.376 270)
     (path /5439AC23/54C1BFE1)
     (attr smd)
-    (fp_text reference R2 (at 0 0 270) (layer F.SilkS)
+    (fp_text reference R2 (at 0.4699 0.8255 270) (layer F.SilkS)
       (effects (font (size 0.35052 0.3048) (thickness 0.07112)))
     )
     (fp_text value 30.1k (at 0.09906 0 270) (layer F.SilkS) hide
@@ -1323,11 +1323,11 @@
     )
   )
 
-  (module TSSOP14 (layer F.Cu) (tedit 54C57F21) (tstamp 54BBED8E)
+  (module TSSOP14 (layer F.Cu) (tedit 54CD3AAF) (tstamp 54BBED8E)
     (at 65.786 63.754)
     (path /541DFCDC/541DFDAD)
     (attr smd)
-    (fp_text reference U2 (at 0 -0.762) (layer F.SilkS)
+    (fp_text reference U2 (at -3.5306 -0.9906) (layer F.SilkS)
       (effects (font (size 0.762 0.635) (thickness 0.16002)))
     )
     (fp_text value TI_TPA6138A2 (at 0 0.508) (layer F.SilkS) hide
