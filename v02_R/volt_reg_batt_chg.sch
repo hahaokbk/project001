@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "28 jan 2015"
+Date "26 feb 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -68,7 +68,7 @@ L R R28
 U 1 1 5439B533
 P 2600 5150
 F 0 "R28" V 2680 5150 40  0000 C CNN
-F 1 "0.8" V 2607 5151 40  0000 C CNN
+F 1 "2" V 2607 5151 40  0000 C CNN
 F 2 "~" V 2530 5150 30  0000 C CNN
 F 3 "~" H 2600 5150 30  0000 C CNN
 	1    2600 5150
@@ -436,4 +436,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 2250 5500 1850
 Connection ~ 5500 1850
+Text Notes 3150 5100 0    60   ~ 0
+CSR8675 datasheet suggests a 400 milliohm resistor \nto get a charge current of 500 mA. They say that a \nLi-Ion battery should be charged < 1 C, hence a \n150 mAh battery should be given no more than 150 \nmA constant charge current. I'm raising the resistance \nto 5*400 milliohm = 2 ohm. I'm thinking this should\nlimit the constant charge current to about 100 mA. 
 $EndSCHEMATC

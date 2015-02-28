@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/v01_R/CWIEM_PCB_v02_R.sch)
-    (date "1/27/2015 7:51:27 PM")
+    (source C:/Users/lifesatrip/Documents/TortoiseSVN/Wireless_IEMs/project001/trunk/v02_R/CWIEM_PCB_v02_R.sch)
+    (date "2/25/2015 10:30:08 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref U1)
@@ -162,7 +162,7 @@
       (sheetpath (names "/Voltage Regulator + Battery Charge circuits/") (tstamps /5439AC23/))
       (tstamp 5439B513))
     (comp (ref R28)
-      (value 0.8)
+      (value 2)
       (libsource (lib device) (part R))
       (sheetpath (names "/Voltage Regulator + Battery Charge circuits/") (tstamps /5439AC23/))
       (tstamp 5439B533))
